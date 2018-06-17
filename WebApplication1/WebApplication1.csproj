@@ -196,13 +196,16 @@
     <Content Include="Images\orderedList7.png" />
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
+    <Content Include="IsPostBack.aspx" />
     <Content Include="packages.config" />
+    <Content Include="PageLifeCycle.aspx" />
     <Content Include="ViewState1.aspx" />
     <Content Include="ViewState2.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="WebForm3.aspx" />
     <Content Include="WebForm4.aspx" />
+    <Content Include="WebForm5.aspx" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -299,6 +302,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="IsPostBack.aspx.cs">
+      <DependentUpon>IsPostBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsPostBack.aspx.designer.cs">
+      <DependentUpon>IsPostBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageLifeCycle.aspx.cs">
+      <DependentUpon>PageLifeCycle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageLifeCycle.aspx.designer.cs">
+      <DependentUpon>PageLifeCycle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -348,6 +365,13 @@
     </Compile>
     <Compile Include="WebForm4.aspx.designer.cs">
       <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm5.aspx.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm5.aspx.designer.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
